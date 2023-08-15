@@ -1,0 +1,11 @@
+--- hello_world.c.orig	2023-08-15 23:54:27.056902877 +0530
++++ hello_world.c	2023-08-15 23:54:42.180980588 +0530
+@@ -3,7 +3,7 @@
+ #include <linux/kernel.h>
+ 
+ MODULE_LICENSE("GPL");
+-MODULE_AUTHOR("Sagar/Linux");
++MODULE_AUTHOR("Sagar_vashnav/Linux");
+ MODULE_DESCRIPTION("Hello World Kernel Module");
+ 
+ static int __init hello_init(void) {
