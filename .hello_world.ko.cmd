@@ -1,0 +1,1 @@
+cmd_/home/sagar/Desktop/linux/hello_world.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sagar/Desktop/linux/hello_world.ko /home/sagar/Desktop/linux/hello_world.o /home/sagar/Desktop/linux/hello_world.mod.o;  true
